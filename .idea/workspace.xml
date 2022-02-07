@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af0e1e91-25cf-4801-9046-5b7b8a9f7cda" name="Changes" comment="" />
+    <list default="true" id="af0e1e91-25cf-4801-9046-5b7b8a9f7cda" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/java_language/src/com/android/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_language/src/com/android/LeapYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_language/src/com/android/helloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_language/src/com/android/HelloWorld.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +35,7 @@
       <updated>1644040804546</updated>
       <workItem from="1644040807442" duration="200000" />
       <workItem from="1644041367696" duration="92000" />
+      <workItem from="1644237664889" duration="87000" />
     </task>
     <servers />
   </component>
