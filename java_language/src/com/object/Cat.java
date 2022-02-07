@@ -38,7 +38,8 @@ public class Cat extends Animal {
             Scanner scanner = new Scanner(System.in);
             int age = scanner.nextInt();
             if (age < 18 || age > 80) {
-                throw new Exception("需要陪同才可以入住！！");
+//                throw new Exception("需要陪同才可以入住！！");
+                throw new CustomError();
             }
 //            java.lang.Exception: 需要陪同才可以入住！！
 //            at com.object.Cat.catchErrorFunc(Cat.java:41)
