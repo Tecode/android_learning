@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af0e1e91-25cf-4801-9046-5b7b8a9f7cda" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java_language/src/com/android/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_language/src/com/android/LeapYear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_language/src/com/android/helloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_language/src/com/android/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -36,6 +36,8 @@
       <workItem from="1644040807442" duration="200000" />
       <workItem from="1644041367696" duration="92000" />
       <workItem from="1644237664889" duration="87000" />
+      <workItem from="1644243057785" duration="66000" />
+      <workItem from="1644413765808" duration="26000" />
     </task>
     <servers />
   </component>
