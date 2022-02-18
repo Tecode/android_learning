@@ -1,5 +1,6 @@
 package com.synchronizedMethod;
 
+// 多线程
 public class RunAccount {
     public static void main(String[] args) throws InterruptedException {
         Bank bank = new Bank("haoxuan1009", 1000);
@@ -13,7 +14,7 @@ public class RunAccount {
         drawAccountThread.join();
         saveAccountThread.join();
 
-        System.out.println("现有余额：" + bank.getBalance());
+        System.out.println("现有余额：" + bank.getBalance() + " 账户：" + bank.getBankName());
     }
 }
 //  没有同步线程会导致输出错误
