@@ -1,6 +1,7 @@
 package com.android
 
-// let安全调用
+// let安全调用操作符
+// 解决空指针异常
 
 fun main() {
     var name: String? = null

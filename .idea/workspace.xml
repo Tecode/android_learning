@@ -3,11 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="af0e1e91-25cf-4801-9046-5b7b8a9f7cda" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin_language/out/production/kotlin_language/META-INF/kotlin_language.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin_language/src/com/android/let.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin_language/src/com/android/let.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +53,8 @@
       <workItem from="1645968926704" duration="198000" />
       <workItem from="1645972019904" duration="99000" />
       <workItem from="1645972127903" duration="34000" />
+      <workItem from="1646743797911" duration="103000" />
+      <workItem from="1646743998723" duration="11000" />
     </task>
     <servers />
   </component>
