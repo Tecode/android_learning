@@ -1,5 +1,7 @@
 package com.android
 
+// psvm快速创建main函数
+
 fun main() {
     println(functionSum(functionString, 2, 54))
 //    lambda属于函数类型的对象::,需要把methodResponseResult普通函数变成函数类型的对象（函数引用）
