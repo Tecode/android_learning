@@ -1,9 +1,9 @@
 package com.android
 
 fun main() {
-    var len = "Hello Kotlin".count()
+    val len = "Hello Kotlin".count()
     println(len)
-    var len002 = "Hello Kotlin".count {
+    val len002 = "Hello Kotlin".count {
 //        it相当于Hello Kotlin" 字符char
         it == 'l';
     }
@@ -20,7 +20,7 @@ val anonymousFunction: (Int, Int, Int) -> String = { number001, number002, numbe
 }
 
 // 匿名函数自动推断，自动根据返回的数据确定返回类型
-val func002 = {value001: String, value002: String -> value001 == value002 }
+val func002 = { value001: String, value002: String -> value001 == value002 }
 
 // 匿名函数 == lambda表达式，匿名函数属于lambda
 val fun003 = { true }
