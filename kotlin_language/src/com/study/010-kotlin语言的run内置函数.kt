@@ -13,10 +13,11 @@ fun main() {
     }
 //    这个属于具名函数
 //    name.run(具名函数)
+//    返回的是上一个的结果
     val r2: String = name
         .run(::isLogin)
         .run(::getUserInfo)
-    println(r2)
+    println(r2) // 已登录
 }
 
 fun isLogin(user: String): Boolean = user.isNotEmpty()
