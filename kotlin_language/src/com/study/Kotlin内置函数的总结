@@ -1,0 +1,21 @@
+内置函数的总结
+
+apply:info.apply
+1.apply函数返回类型，用于都是info本身 此条和also一模一样
+2.apply函数的匿名函数里面持有的是this == info 本身 此条和run一模一样
+
+let:
+1.let函数返回类型，是根据匿名函数最后一行的变化而变化，此条和run一模一样
+2.let函数的匿名函数里面持有是it==集合本身此条和also一模一样
+
+run: str.run
+1.run函数返回类型，是根据匿名函数最后一行变化而变化，此条和let一模一样
+2.run函数的匿名函数里面持有的是this==str本身，此条和apply一模一样
+
+with: width(str)
+1.width函数返回类型，是根据匿名函数最后一行变化而变化，此条和let一模一样
+2.width函数匿名函数里面持有的是this==str本身，此条和apply一模一样
+
+also str.also
+1.also函数返回类型，用于都是str本身此条和apply一模一样
+2.also函数的匿名函数里面持有的是it==str此条和let一模一样
