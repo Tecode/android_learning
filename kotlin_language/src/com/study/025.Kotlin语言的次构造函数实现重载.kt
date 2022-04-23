@@ -3,6 +3,8 @@ package com.study
 // 构造函数的不同传参方式
 // 第一步：生成value name age
 class Personal003(name: String, age: Int) {
+    //  类成员和init代码块是同时生成的
+    val name002 = name
     init {
         println("函数初始化$name $age")
         require(name.isEmpty()) { "必传项校验，name不能为空，抛出异常" }
