@@ -4,3 +4,15 @@ package com.android
 fun main() {
     kotlin_run_java.`is`()
 }
+
+class JavaRunKotlin {
+    fun run() {
+        println("运行的是Kotlin代码")
+    }
+
+    companion object {
+        fun kotlinRun() {
+            println("Kotlin的静态方法")
+        }
+    }
+}
