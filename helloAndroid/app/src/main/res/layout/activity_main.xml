@@ -12,6 +12,7 @@
         android:layout_height="match_parent">
 
         <LinearLayout
+            android:id="@+id/outline"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -28,7 +29,9 @@
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_weight="1"
-                android:background="#FF5722" />
+                android:background="#FF5722" >
+
+            </View>
 
             <View
                 android:id="@+id/wrap003"
@@ -40,6 +43,7 @@
 
         <TextView
             android:id="@+id/text"
+            android:layout_centerInParent="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hello World!"

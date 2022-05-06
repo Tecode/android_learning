@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0e1e91-25cf-4801-9046-5b7b8a9f7cda" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin_language/out/production/kotlin_language/META-INF/kotlin_language.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin_language/src/com/android/let.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin_language/src/com/android/let.kt" afterDir="false" />
-    </list>
+    <list default="$ENABLE_FLUTTER_DESKTOP$" id="af0e1e91-25cf-4801-9046-5b7b8a9f7cda" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_CONFLICTS" value="$ENABLE_FLUTTER_DESKTOP$" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
@@ -23,20 +22,22 @@
   </component>
   <component name="ProjectId" id="24g8KAUjOPiVWCwklDklHCPKUGK" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
+    <option name="hideEmptyMiddlePackages" value="$ENABLE_FLUTTER_DESKTOP$" />
+    <option name="showLibraryContents" value="$ENABLE_FLUTTER_DESKTOP$" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="$ENABLE_FLUTTER_DESKTOP$" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="$ENABLE_FLUTTER_DESKTOP$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/helloAndroid" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="$ENABLE_FLUTTER_DESKTOP$" transferred="$ENABLE_FLUTTER_DESKTOP$" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
+    <task active="$ENABLE_FLUTTER_DESKTOP$" id="Default" summary="Default task">
       <changelist id="af0e1e91-25cf-4801-9046-5b7b8a9f7cda" name="Changes" comment="" />
       <created>1644040804546</created>
       <option name="number" value="Default" />
@@ -71,6 +72,16 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="oldMeFiltersMigrated" value="$ENABLE_FLUTTER_DESKTOP$" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1651844222349">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1651844222349" />
+    <state x="1083" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1651844187629">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1083" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1651844187629" />
   </component>
 </project>
