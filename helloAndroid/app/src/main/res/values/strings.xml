@@ -3,4 +3,8 @@
     <string name="login_title">登录页面</string>
     <string name="user_name">用户名</string>
     <string name="password">密码</string>
+    <string name="man">MAN</string>
+    <string name="woman">WOMAN</string>
+    <string name="check_gender">Check Gender</string>
+    <string name="submit">Submit</string>
 </resources>
