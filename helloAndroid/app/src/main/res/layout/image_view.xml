@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <!--src引用图片 adjustViewBounds 按长宽比缩放-->
+    <ImageView
+        android:layout_width="200dp"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/internet_explorer" />
+    <!--background引用图片-->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/internet_explorer" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@mipmap/internet_explorer" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radio_shape"
+        android:scaleType="centerInside"
+        android:src="@mipmap/internet_explorer" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="matrix"
+        android:src="@mipmap/internet_explorer" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="center"
+        android:src="@mipmap/internet_explorer" />
+</LinearLayout>
