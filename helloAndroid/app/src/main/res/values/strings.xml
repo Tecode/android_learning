@@ -7,4 +7,6 @@
     <string name="woman">WOMAN</string>
     <string name="check_gender">Check Gender</string>
     <string name="submit">Submit</string>
+    <string name="scroll_top">Scroll Top</string>
+    <string name="scroll_bottom">Scroll Bottom</string>
 </resources>
