@@ -21,6 +21,8 @@
         <entry key="app/src/main/res/layout/button.xml" value="0.33" />
         <entry key="app/src/main/res/layout/button_layout.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/checkbox.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/chronometer_layout.xml" value="0.38958333333333334" />
+        <entry key="app/src/main/res/layout/date_time_layout.xml" value="0.38958333333333334" />
         <entry key="app/src/main/res/layout/frame_layout.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/grid_layout.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/image_view.xml" value="0.33" />
@@ -30,6 +32,7 @@
         <entry key="app/src/main/res/layout/scroll_view_layout.xml" value="0.33" />
         <entry key="app/src/main/res/layout/seekbar_layout.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/switch_activity.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/textclock_layout.xml" value="0.38958333333333334" />
       </map>
     </option>
   </component>
