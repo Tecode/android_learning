@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="$ENABLE_FLUTTER_DESKTOP$" id="af0e1e91-25cf-4801-9046-5b7b8a9f7cda" name="Changes" comment="" />
+    <list default="$ENABLE_FLUTTER_DESKTOP$" id="af0e1e91-25cf-4801-9046-5b7b8a9f7cda" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloAndroid/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloAndroid/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloAndroid/.idea/shelf/Uncommitted_changes_before_Update_at_2022_5_8,_22_45_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloAndroid/.idea/shelf/Uncommitted_changes_before_Update_at_2022_5_8__22_45__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloAndroid/.idea/shelf/Uncommitted_changes_before_Update_at_2022_5_8__22_45__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloAndroid/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/helloAndroid/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloAndroid/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloAndroid/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloAndroid/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloAndroid/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloAndroid/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/helloAndroid/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin_language/.idea/runConfigurations.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="$ENABLE_FLUTTER_DESKTOP$" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +38,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="$ENABLE_FLUTTER_DESKTOP$" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="$ENABLE_FLUTTER_DESKTOP$" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="$ENABLE_FLUTTER_DESKTOP$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cidr.known.project.marker" value="$ENABLE_FLUTTER_DESKTOP$" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/helloAndroid" />

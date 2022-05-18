@@ -1,8 +1,8 @@
 package com.example.helloandroid;
 
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
+//import android.os.Handler;
+//import android.os.Message;
 import android.widget.ProgressBar;
 
 import androidx.annotation.NonNull;
@@ -13,17 +13,17 @@ public class ProgressbarActivity extends AppCompatActivity {
     private int maxProgress;
     private ProgressBar progressBar;
 
-     private Handler mHandler = new Handler() {
-        @Override
-        public void handleMessage(@NonNull Message msg) {
-            super.handleMessage(msg);
-            switch (msg.what) {
-                case 0:
-                    progressBar.setProgress(currentProgress);
-                    break;
-            }
-        }
-    };
+//     private Handler mHandler = new Handler() {
+//        @Override
+//        public void handleMessage(@NonNull Message msg) {
+//            super.handleMessage(msg);
+//            switch (msg.what) {
+//                case 0:
+//                    progressBar.setProgress(currentProgress);
+//                    break;
+//            }
+//        }
+//    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +47,7 @@ public class ProgressbarActivity extends AppCompatActivity {
                             if (currentProgress > maxProgress) {
                                 break;
                             }
-                            mHandler.sendEmptyMessage(0);
+//                            mHandler.sendEmptyMessage(0);
                         }
                     } catch (InterruptedException e) {
                         e.printStackTrace();
