@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/news" />
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:maxLines="1"
+            android:text="疫情常态防控下如何保障旅客在飞机上安全安心？"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_alignParentBottom="true"
+            android:maxLines="2"
+            android:layout_weight="1"
+            android:text="5月23日下午，国务院联防联控机制召开新闻发布会，介绍分秒必争，抓实抓细疫情防控工作有关情况，并回答媒体提问。对此，民航局飞行标准司副司长孔繁伟表示，当前，全球疫情仍处于高位，我国仍将持续面临“外防输入，内防反弹”的巨大压力。"
+            android:textColor="#000000"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_alignParentBottom="true"
+            android:maxLines="2"
+            android:layout_weight="1"
+            android:text="2020-05-22"
+            android:layout_gravity=""
+            android:textColor="#000000"
+            android:textSize="13dp" />
+    </LinearLayout>
+</LinearLayout>
