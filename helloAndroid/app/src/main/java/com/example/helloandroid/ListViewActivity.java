@@ -32,9 +32,10 @@ public class ListViewActivity extends AppCompatActivity implements AdapterView.O
         setContentView(R.layout.list_view_layout);
         listData = new ArrayList<NewsEntity>();
         listView = findViewById(R.id.listview);
+        listView.setOnItemClickListener(this);
         for (int index = 0; index < 20; index++) {
             listData.add(new NewsEntity(
-                    modifyNumber(index) + "疫情常态防控下如何保障旅客在飞机上安全安心？",
+                    modifyNumber(index + 1) + "疫情常态防控下如何保障旅客在飞机上安全安心？",
                     "5月23日下午，国务院联防联控机制召开新闻发布会，介绍分秒必争，抓实抓细疫情防控工作有关情况，并回答媒体提问。对此，民航局飞行标准司副司长孔繁伟表示，当前，全球疫情仍处于高位，我国仍将持续面临“外防输入，内防反弹”的巨大压力。",
                     R.mipmap.news
             ));
