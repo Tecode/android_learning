@@ -13,9 +13,15 @@ class OnlyRead<out T>(val value: T) {
 
 // 泛型类型只能修改不能读取
 class OnlyWrite<in T> {
+    //    只能对T修改，不能给外界读取
     fun setValue(value: T) {
         println("set的值是$value")
     }
+
+//    不能给外界读取
+//    fun returnValue(): T? {
+//        return null
+//    }
 }
 
 fun main() {

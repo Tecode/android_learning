@@ -1,6 +1,7 @@
 package com.android
 
 // Unit相当于java的void
+// psvm快速创建main函数
 fun main(): Unit {
     println("hello kotlin");
     println(sum(number001 = 23, number002 = 5))
