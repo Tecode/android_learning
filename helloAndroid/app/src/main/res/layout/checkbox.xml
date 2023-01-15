@@ -6,28 +6,28 @@
 
     <CheckBox
         android:id="@+id/checkbox001"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app_name" />
 
     <CheckBox
         android:id="@+id/checkbox002"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/submit" />
 
     <CheckBox
         android:id="@+id/checkbox003"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:button="@drawable/checkbox_custom"
         android:text="@string/woman" />
 
     <CheckBox
         android:id="@+id/checkbox004"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         style="@style/CheckboxCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/man" />
 
     <Button

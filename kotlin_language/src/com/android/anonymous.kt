@@ -26,3 +26,10 @@ val func002 = { value001: String, value002: String -> value001 == value002 }
 val fun003 = { true }
 
 val func004 = { 3.1415 }
+
+//12
+//3
+//number001:2 - number002:3 - number003:4
+//false
+//true
+//3.1415
