@@ -19,4 +19,5 @@
         <item>最强王者</item>
     </string-array>
     <string name="spin_title">分段选择</string>
+    <string name="event_button">按钮</string>
 </resources>

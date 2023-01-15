@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="$ENABLE_FLUTTER_DESKTOP$" id="af0e1e91-25cf-4801-9046-5b7b8a9f7cda" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloAndroid/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloAndroid/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloAndroid/.idea/shelf/Uncommitted_changes_before_Update_at_2022_5_8,_22_45_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloAndroid/.idea/shelf/Uncommitted_changes_before_Update_at_2022_5_8__22_45__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloAndroid/.idea/shelf/Uncommitted_changes_before_Update_at_2022_5_8__22_45__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloAndroid/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/helloAndroid/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloAndroid/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloAndroid/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloAndroid/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloAndroid/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloAndroid/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/helloAndroid/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin_language/.idea/runConfigurations.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="af0e1e91-25cf-4801-9046-5b7b8a9f7cda" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="$ENABLE_FLUTTER_DESKTOP$" />
+    <option name="HIGHLIGHT_CONFLICTS" value="false" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
@@ -31,10 +21,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="24g8KAUjOPiVWCwklDklHCPKUGK" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="$ENABLE_FLUTTER_DESKTOP$" />
-    <option name="showLibraryContents" value="$ENABLE_FLUTTER_DESKTOP$" />
-  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="$ENABLE_FLUTTER_DESKTOP$" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="$ENABLE_FLUTTER_DESKTOP$" />
@@ -47,9 +33,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="$ENABLE_FLUTTER_DESKTOP$" transferred="$ENABLE_FLUTTER_DESKTOP$" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="false" transferred="true" />
   <component name="TaskManager">
-    <task active="$ENABLE_FLUTTER_DESKTOP$" id="Default" summary="Default task">
+    <task active="true" id="Default" summary="Default task">
       <changelist id="af0e1e91-25cf-4801-9046-5b7b8a9f7cda" name="Changes" comment="" />
       <created>1644040804546</created>
       <option name="number" value="Default" />
@@ -68,6 +54,7 @@
       <workItem from="1645972127903" duration="34000" />
       <workItem from="1646743797911" duration="103000" />
       <workItem from="1646743998723" duration="11000" />
+      <workItem from="1653997016274" duration="4000" />
     </task>
     <servers />
   </component>
@@ -84,7 +71,7 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="$ENABLE_FLUTTER_DESKTOP$" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1651844222349">
