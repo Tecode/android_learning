@@ -10,7 +10,6 @@ import android.widget.CompoundButton;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class CheckboxActivity extends AppCompatActivity implements View.OnClickListener, CompoundButton.OnCheckedChangeListener {
     public CheckBox checkBox001;
