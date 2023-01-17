@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="152f3a74-1337-4a60-bde8-51d51b8fe11b" name="Changes" comment="java版本修改为1.8">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+    <list default="true" id="152f3a74-1337-4a60-bde8-51d51b8fe11b" name="Changes" comment="048-Kotlin语言的泛型扩展函数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin_language/META-INF/kotlin_language.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_language/META-INF/kotlin_language.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/study/048-Kotlin语言的泛型扩展函数.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/study/048-Kotlin语言的泛型扩展函数.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/study/Kotlin内置函数的总结" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/study/Kotlin内置函数的总结" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/study/048-Kotlin语言的泛型扩展函数.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/study/048.Kotlin语言的泛型扩展函数.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,28 +56,7 @@
       <recent name="$PROJECT_DIR$/src/com/study" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._049_Kotlin语言的标准函数与扩展函数Kt">
-    <configuration name="HelloWorldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.android.HelloWorldKt" />
-      <module name="kotlin_language" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Kotlin_run_javaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.android.Kotlin_run_javaKt" />
-      <module name="kotlin_language" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_008_kotlin空合并操作符Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study._008_kotlin空合并操作符Kt" />
-      <module name="kotlin_language" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin._052_Kotlin语言的定义扩展文件Kt">
     <configuration name="_048_Kotlin语言的泛型扩展函数Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study._048_Kotlin语言的泛型扩展函数Kt" />
       <module name="kotlin_language" />
@@ -94,20 +71,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_050_Kotlin语言的可空类型扩展函数Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study._050_Kotlin语言的可空类型扩展函数Kt" />
+      <module name="kotlin_language" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_051_Kotlin语言的infix关键字Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study._051_Kotlin语言的infix关键字Kt" />
+      <module name="kotlin_language" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_052_Kotlin语言的定义扩展文件Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study._052_Kotlin语言的定义扩展文件Kt" />
+      <module name="kotlin_language" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.Kotlin_run_javaKt" />
-      <item itemvalue="Kotlin.HelloWorldKt" />
-      <item itemvalue="Kotlin._008_kotlin空合并操作符Kt" />
       <item itemvalue="Kotlin._048_Kotlin语言的泛型扩展函数Kt" />
       <item itemvalue="Kotlin._049_Kotlin语言的标准函数与扩展函数Kt" />
+      <item itemvalue="Kotlin._050_Kotlin语言的可空类型扩展函数Kt" />
+      <item itemvalue="Kotlin._051_Kotlin语言的infix关键字Kt" />
+      <item itemvalue="Kotlin._052_Kotlin语言的定义扩展文件Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._052_Kotlin语言的定义扩展文件Kt" />
+        <item itemvalue="Kotlin._051_Kotlin语言的infix关键字Kt" />
+        <item itemvalue="Kotlin._050_Kotlin语言的可空类型扩展函数Kt" />
         <item itemvalue="Kotlin._049_Kotlin语言的标准函数与扩展函数Kt" />
         <item itemvalue="Kotlin._048_Kotlin语言的泛型扩展函数Kt" />
-        <item itemvalue="Kotlin._008_kotlin空合并操作符Kt" />
-        <item itemvalue="Kotlin.HelloWorldKt" />
-        <item itemvalue="Kotlin.Kotlin_run_javaKt" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +153,7 @@
       <workItem from="1673851830045" duration="216000" />
       <workItem from="1673852050052" duration="59000" />
       <workItem from="1673852112323" duration="3659000" />
-      <workItem from="1673922970343" duration="4480000" />
+      <workItem from="1673922970343" duration="6987000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin代码学习，为Android学习大基础">
       <created>1645975436657</created>
@@ -360,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673851244396</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="048-Kotlin语言的泛型扩展函数">
+      <created>1673943163171</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1673943163171</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +384,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kotlin代码学习，匿名函数抽象类" />
     <MESSAGE value="kotlin代码学习，lambda函数与普通函数" />
     <MESSAGE value="kotlin代码学习，匿名函数与具名函数的使用" />
     <MESSAGE value="kotlin代码学习，可空操作符" />
@@ -404,7 +408,8 @@
     <MESSAGE value="Kotlin与Java代码的相互调用" />
     <MESSAGE value="hello world即时起点也是终点" />
     <MESSAGE value="java版本修改为1.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="java版本修改为1.8" />
+    <MESSAGE value="048-Kotlin语言的泛型扩展函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="048-Kotlin语言的泛型扩展函数" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
