@@ -19,3 +19,30 @@ with: width(str)
 also str.also
 1.also函数返回类型，用于都是str本身此条和apply一模一样
 2.also函数的匿名函数里面持有的是it==str此条和let一模一样
+
+-------------------------------apply also 是一个类别 属于一类 -------------------------------------
+相同点：apply与also返回类型是一样的，他们永远都是返回info本身，匿名函数，最后一行无法作为返回值，不影响函数返回值
+不同点：匿名函数里面的apply持有{this setFile("file")} also {it setFile("file")}
+应用点：
+    val file = File("xx").apply{ setFile('xx) }.apply{ setFile('xx) }
+    val file = File("xx").also{ it.setFile('xx) }.also{ it.setFile('xx) }
+
+-------------------------------run let 是一个类别 属于一类 -------------------------------------
+相同点：run与let with返回类型是一样的，都会根据匿名函数最后一行返回的类型二决定run与let的返回类型（根据匿名函数最后一行变化而变化）
+不同点：匿名函数里面润持有this let会持有it
+val r:Boolean = info.run {
+    this == info本身
+    length
+
+    123
+    "2334"
+    false
+}
+
+val r:String = info.let {
+    it == info本身
+    it.length
+
+    123
+    "2334"
+}
