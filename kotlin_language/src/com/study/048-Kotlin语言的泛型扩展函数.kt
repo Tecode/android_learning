@@ -21,6 +21,9 @@ fun <T2> T2.outType() {
     }
 }
 
+// 显示调用的时间
+fun <T3> T3.showTime() = println("调用的时间是：${java.lang.System.currentTimeMillis()}")
+
 fun componentFunc() = println("组件函数：componentFun产生了调用")
 
 fun main() {
@@ -31,6 +34,7 @@ fun main() {
     componentFunc().outType()
     "name".outType()
     Human014("haoxuan").outType()
+    Human014("haoxuan").showTime()
 }
 
 //组件函数：componentFun产生了调用

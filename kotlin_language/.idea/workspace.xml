@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152f3a74-1337-4a60-bde8-51d51b8fe11b" name="Changes" comment="java版本修改为1.8">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/study/008-kotlin空合并操作符.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/study/008-kotlin空合并操作符.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_language/META-INF/kotlin_language.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_language/META-INF/kotlin_language.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/study/048-Kotlin语言的泛型扩展函数.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/study/048-Kotlin语言的泛型扩展函数.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/study/Kotlin内置函数的总结" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/study/Kotlin内置函数的总结" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,7 @@
       <recent name="$PROJECT_DIR$/src/com/study" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._048_Kotlin语言的泛型扩展函数Kt">
+  <component name="RunManager" selected="Kotlin._049_Kotlin语言的标准函数与扩展函数Kt">
     <configuration name="HelloWorldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.android.HelloWorldKt" />
       <module name="kotlin_language" />
@@ -91,14 +87,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_049_Kotlin语言的标准函数与扩展函数Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study._049_Kotlin语言的标准函数与扩展函数Kt" />
+      <module name="kotlin_language" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Kotlin.Kotlin_run_javaKt" />
       <item itemvalue="Kotlin.HelloWorldKt" />
       <item itemvalue="Kotlin._008_kotlin空合并操作符Kt" />
       <item itemvalue="Kotlin._048_Kotlin语言的泛型扩展函数Kt" />
+      <item itemvalue="Kotlin._049_Kotlin语言的标准函数与扩展函数Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._049_Kotlin语言的标准函数与扩展函数Kt" />
         <item itemvalue="Kotlin._048_Kotlin语言的泛型扩展函数Kt" />
         <item itemvalue="Kotlin._008_kotlin空合并操作符Kt" />
         <item itemvalue="Kotlin.HelloWorldKt" />
@@ -149,7 +154,8 @@
       <workItem from="1673851377217" duration="448000" />
       <workItem from="1673851830045" duration="216000" />
       <workItem from="1673852050052" duration="59000" />
-      <workItem from="1673852112323" duration="2664000" />
+      <workItem from="1673852112323" duration="3659000" />
+      <workItem from="1673922970343" duration="4480000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin代码学习，为Android学习大基础">
       <created>1645975436657</created>
