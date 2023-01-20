@@ -1,7 +1,7 @@
 package com.study
 
-import com.android.randomValue
-import com.android.randomValuePrint
+import com.android.randomValue as RG
+import com.android.randomValuePrint as RP
 
 fun main() {
     val listData = listOf<Double>(9.0, 10.0, 6.0, 1.0, 3.0, 4.5, 5.0)
@@ -12,12 +12,12 @@ fun main() {
     println(setData.shuffled().first())
 
 //  使用扩展文件获取随机内容
-    println(listData.randomValue())
-    println(setData.randomValue())
+    println(listData.RG())
+    println(setData.RP())
 
 //  直接使用扩展文件打印随机内容
-    listData.randomValuePrint()
-    setData.randomValuePrint()
+    listData.RG()
+    setData.RP()
 }
 
 //go
