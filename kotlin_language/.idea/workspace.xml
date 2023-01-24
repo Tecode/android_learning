@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="152f3a74-1337-4a60-bde8-51d51b8fe11b" name="Changes" comment="总结" />
+    <list default="true" id="152f3a74-1337-4a60-bde8-51d51b8fe11b" name="Changes" comment="重命名扩展">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,6 +152,7 @@
       <workItem from="1673852050052" duration="59000" />
       <workItem from="1673852112323" duration="3659000" />
       <workItem from="1673922970343" duration="7692000" />
+      <workItem from="1674226240592" duration="1351000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin代码学习，为Android学习大基础">
       <created>1645975436657</created>
@@ -375,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673945702446</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="重命名扩展">
+      <created>1674226348003</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1674226348003</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +404,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kotlin代码学习，可空操作符" />
     <MESSAGE value="kotlin代码学习，字符串操作，异常处理" />
     <MESSAGE value="kotlin代码学习，类型转换" />
     <MESSAGE value="kotlin语言的run内置函数" />
@@ -419,7 +428,8 @@
     <MESSAGE value="048-Kotlin语言的泛型扩展函数" />
     <MESSAGE value="052.Kotlin语言的定义扩展文件" />
     <MESSAGE value="总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="总结" />
+    <MESSAGE value="重命名扩展" />
+    <option name="LAST_COMMIT_MESSAGE" value="重命名扩展" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
