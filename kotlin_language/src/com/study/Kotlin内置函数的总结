@@ -27,7 +27,7 @@ also str.also
     val file = File("xx").apply{ setFile('xx) }.apply{ setFile('xx) }
     val file = File("xx").also{ it.setFile('xx) }.also{ it.setFile('xx) }
 
--------------------------------run let 是一个类别 属于一类 -------------------------------------
+-------------------------------run let 是一个类别 属于一类 ---------------------------------------
 相同点：run与let with返回类型是一样的，都会根据匿名函数最后一行返回的类型二决定run与let的返回类型（根据匿名函数最后一行变化而变化）
 不同点：匿名函数里面润持有this let会持有it
 val r:Boolean = info.run {
@@ -45,4 +45,16 @@ val r:String = info.let {
 
     123
     "2334"
+}
+
+-------------------------------let apply 源码分析---------------------------------------
+1、let 返回的类型根据匿名函数的变化而变化（lambda的返回类型变化而变化）
+2、匿名函数里面持有的是it == I == info本身
+private inline fun <I, O> I.let( lambda : (I) -> O ) = lambda(this)
+
+1、apply返回的类型永远都是I（所以可以链式调用）（lambda返回的数据类型无法变化，你写的是Unit并且没有lambda关联返回类型）
+2、匿名函数里面持有的是this == info == I
+private inline fun <I> T.apply( lambda: I.() -> Unit ) {
+    lambda()
+    return this
 }

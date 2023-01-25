@@ -45,7 +45,7 @@ fun Human013.info(): String = name
 //}
 
 //
-fun File.readLines(charset: Charset = Charsets.UTF_8): String {
+private fun File.readLines(charset: Charset = Charsets.UTF_8): String {
 //    val result = ArrayList<String>()
 //    forEachLine(charset) { result.add(it); }
     return "重写了File.readLines方法"
