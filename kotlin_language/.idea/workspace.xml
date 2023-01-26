@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="152f3a74-1337-4a60-bde8-51d51b8fe11b" name="Changes" comment="9.0&#10;swift&#10;5.0&#10;kotlin&#10;kotlin.Unit&#10;java-script">
+    <list default="true" id="152f3a74-1337-4a60-bde8-51d51b8fe11b" name="Changes" comment="apply函数详解">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/study/046.Kotlin语言定义扩展函数.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/study/046.Kotlin语言定义扩展函数.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/study/Kotlin内置函数的总结" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/study/Kotlin内置函数的总结" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_language/META-INF/kotlin_language.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_language/META-INF/kotlin_language.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/study" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -56,35 +55,7 @@
       <recent name="$PROJECT_DIR$/src/com/study" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._053_Kotlin语言的apply函数详解Kt">
-    <configuration name="_049_Kotlin语言的标准函数与扩展函数Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study._049_Kotlin语言的标准函数与扩展函数Kt" />
-      <module name="kotlin_language" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_050_Kotlin语言的可空类型扩展函数Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study._050_Kotlin语言的可空类型扩展函数Kt" />
-      <module name="kotlin_language" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_051_Kotlin语言的infix关键字Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study._051_Kotlin语言的infix关键字Kt" />
-      <module name="kotlin_language" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_052_Kotlin语言的定义扩展文件Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study._052_Kotlin语言的定义扩展文件Kt" />
-      <module name="kotlin_language" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin._057_Kotlin语言的变换函数_filterKt">
     <configuration name="_053_Kotlin语言的apply函数详解Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study._053_Kotlin语言的apply函数详解Kt" />
       <module name="kotlin_language" />
@@ -92,20 +63,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_054_Kotlin语言的DSL学习Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study._054_Kotlin语言的DSL学习Kt" />
+      <module name="kotlin_language" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_055_Kotlin语言的变换函数_mapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study._055_Kotlin语言的变换函数_mapKt" />
+      <module name="kotlin_language" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_056_Kotlin语言的变换函数_flatMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study._056_Kotlin语言的变换函数_flatMapKt" />
+      <module name="kotlin_language" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_057_Kotlin语言的变换函数_filterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study._057_Kotlin语言的变换函数_filterKt" />
+      <module name="kotlin_language" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin._049_Kotlin语言的标准函数与扩展函数Kt" />
-      <item itemvalue="Kotlin._050_Kotlin语言的可空类型扩展函数Kt" />
-      <item itemvalue="Kotlin._051_Kotlin语言的infix关键字Kt" />
-      <item itemvalue="Kotlin._052_Kotlin语言的定义扩展文件Kt" />
       <item itemvalue="Kotlin._053_Kotlin语言的apply函数详解Kt" />
+      <item itemvalue="Kotlin._054_Kotlin语言的DSL学习Kt" />
+      <item itemvalue="Kotlin._055_Kotlin语言的变换函数_mapKt" />
+      <item itemvalue="Kotlin._056_Kotlin语言的变换函数_flatMapKt" />
+      <item itemvalue="Kotlin._057_Kotlin语言的变换函数_filterKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._057_Kotlin语言的变换函数_filterKt" />
+        <item itemvalue="Kotlin._056_Kotlin语言的变换函数_flatMapKt" />
+        <item itemvalue="Kotlin._055_Kotlin语言的变换函数_mapKt" />
+        <item itemvalue="Kotlin._054_Kotlin语言的DSL学习Kt" />
         <item itemvalue="Kotlin._053_Kotlin语言的apply函数详解Kt" />
-        <item itemvalue="Kotlin._052_Kotlin语言的定义扩展文件Kt" />
-        <item itemvalue="Kotlin._051_Kotlin语言的infix关键字Kt" />
-        <item itemvalue="Kotlin._050_Kotlin语言的可空类型扩展函数Kt" />
-        <item itemvalue="Kotlin._049_Kotlin语言的标准函数与扩展函数Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +153,7 @@
       <workItem from="1673852050052" duration="59000" />
       <workItem from="1673852112323" duration="3659000" />
       <workItem from="1673922970343" duration="7692000" />
-      <workItem from="1674226240592" duration="4509000" />
+      <workItem from="1674226240592" duration="10466000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin代码学习，为Android学习大基础">
       <created>1645975436657</created>
@@ -394,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674574847117</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="apply函数详解">
+      <created>1674653223285</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1674653223285</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +419,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kotlin代码学习，类型转换" />
     <MESSAGE value="kotlin语言的run内置函数" />
     <MESSAGE value="012-kotlin语言的also内置函数" />
     <MESSAGE value="013-kotlin语言的takeIf内置函数" />
@@ -438,7 +443,8 @@
     <MESSAGE value="总结" />
     <MESSAGE value="重命名扩展" />
     <MESSAGE value="9.0&#10;swift&#10;5.0&#10;kotlin&#10;kotlin.Unit&#10;java-script" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.0&#10;swift&#10;5.0&#10;kotlin&#10;kotlin.Unit&#10;java-script" />
+    <MESSAGE value="apply函数详解" />
+    <option name="LAST_COMMIT_MESSAGE" value="apply函数详解" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
