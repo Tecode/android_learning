@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="152f3a74-1337-4a60-bde8-51d51b8fe11b" name="Changes" comment="apply函数详解">
+    <list default="true" id="152f3a74-1337-4a60-bde8-51d51b8fe11b" name="Changes" comment="zip">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin_language/META-INF/kotlin_language.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_language/META-INF/kotlin_language.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/study/058.Kotlin语言的变换函数-zip.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/study/058.Kotlin语言的变换函数-zip.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +15,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,31 +56,16 @@
       <recent name="$PROJECT_DIR$/src/com/study" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._057_Kotlin语言的变换函数_filterKt">
-    <configuration name="_053_Kotlin语言的apply函数详解Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study._053_Kotlin语言的apply函数详解Kt" />
+  <component name="RunManager" selected="Kotlin._060_Kotlin语言的互操作性与可空性Kt">
+    <configuration name="KotlinInteraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.KotlinInteraction" />
       <module name="kotlin_language" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_054_Kotlin语言的DSL学习Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study._054_Kotlin语言的DSL学习Kt" />
-      <module name="kotlin_language" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_055_Kotlin语言的变换函数_mapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study._055_Kotlin语言的变换函数_mapKt" />
-      <module name="kotlin_language" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_056_Kotlin语言的变换函数_flatMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study._056_Kotlin语言的变换函数_flatMapKt" />
-      <module name="kotlin_language" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,20 +77,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_058_Kotlin语言的变换函数_zipKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study._058_Kotlin语言的变换函数_zipKt" />
+      <module name="kotlin_language" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_059_Kotlin语言中使用函数式编程Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study._059_Kotlin语言中使用函数式编程Kt" />
+      <module name="kotlin_language" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_060_Kotlin语言的互操作性与可空性Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study._060_Kotlin语言的互操作性与可空性Kt" />
+      <module name="kotlin_language" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin._053_Kotlin语言的apply函数详解Kt" />
-      <item itemvalue="Kotlin._054_Kotlin语言的DSL学习Kt" />
-      <item itemvalue="Kotlin._055_Kotlin语言的变换函数_mapKt" />
-      <item itemvalue="Kotlin._056_Kotlin语言的变换函数_flatMapKt" />
       <item itemvalue="Kotlin._057_Kotlin语言的变换函数_filterKt" />
+      <item itemvalue="Kotlin._058_Kotlin语言的变换函数_zipKt" />
+      <item itemvalue="Kotlin._059_Kotlin语言中使用函数式编程Kt" />
+      <item itemvalue="Application.KotlinInteraction" />
+      <item itemvalue="Kotlin._060_Kotlin语言的互操作性与可空性Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._060_Kotlin语言的互操作性与可空性Kt" />
+        <item itemvalue="Application.KotlinInteraction" />
+        <item itemvalue="Kotlin._059_Kotlin语言中使用函数式编程Kt" />
+        <item itemvalue="Kotlin._058_Kotlin语言的变换函数_zipKt" />
         <item itemvalue="Kotlin._057_Kotlin语言的变换函数_filterKt" />
-        <item itemvalue="Kotlin._056_Kotlin语言的变换函数_flatMapKt" />
-        <item itemvalue="Kotlin._055_Kotlin语言的变换函数_mapKt" />
-        <item itemvalue="Kotlin._054_Kotlin语言的DSL学习Kt" />
-        <item itemvalue="Kotlin._053_Kotlin语言的apply函数详解Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +160,9 @@
       <workItem from="1673852050052" duration="59000" />
       <workItem from="1673852112323" duration="3659000" />
       <workItem from="1673922970343" duration="7692000" />
-      <workItem from="1674226240592" duration="10466000" />
+      <workItem from="1674226240592" duration="11877000" />
+      <workItem from="1674871002288" duration="632000" />
+      <workItem from="1674889288248" duration="2979000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin代码学习，为Android学习大基础">
       <created>1645975436657</created>
@@ -400,7 +409,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674653223285</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="DSL\map\flatMap\filter">
+      <created>1674710473882</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1674710473882</updated>
+    </task>
+    <task id="LOCAL-00037" summary="DSL\map\flatMap\filter">
+      <created>1674710480732</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1674710480732</updated>
+    </task>
+    <task id="LOCAL-00038" summary="zip">
+      <created>1674807352687</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1674807352687</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,8 +449,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kotlin语言的run内置函数" />
-    <MESSAGE value="012-kotlin语言的also内置函数" />
     <MESSAGE value="013-kotlin语言的takeIf内置函数" />
     <MESSAGE value="014-kotlin语言的takeUnless内置函数" />
     <MESSAGE value="015-kotlin语言的List集合获取" />
@@ -444,7 +472,9 @@
     <MESSAGE value="重命名扩展" />
     <MESSAGE value="9.0&#10;swift&#10;5.0&#10;kotlin&#10;kotlin.Unit&#10;java-script" />
     <MESSAGE value="apply函数详解" />
-    <option name="LAST_COMMIT_MESSAGE" value="apply函数详解" />
+    <MESSAGE value="DSL\map\flatMap\filter" />
+    <MESSAGE value="zip" />
+    <option name="LAST_COMMIT_MESSAGE" value="zip" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

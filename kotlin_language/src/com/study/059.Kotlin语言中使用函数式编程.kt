@@ -4,12 +4,12 @@ fun main() {
     val listData = listOf("Go", "Swift", "Java", "javascript", "Kotlin")
     val data = listOf(12, 20, 30)
     val zip: List<Pair<String, Int>> = listData.zip(data)
-    println(zip)
-//    [(Go, 12), (Swift, 20), (Java, 30)]
-    zip.forEach {
+    zip.toMap().map {
+        "Key:${it.key},Value:${it.value}"
+    }.map {
         println(it)
-    }
-    zip.forEachIndexed { index, pair ->
-        println("$pair index:$index")
+//        Key:Go,Value:12
+//        Key:Swift,Value:20
+//        Key:Java,Value:30
     }
 }
