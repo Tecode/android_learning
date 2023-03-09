@@ -104,7 +104,7 @@ public class AlertDialogActivity extends AppCompatActivity implements View.OnCli
                 break;
             //多选列表对话框
             case R.id.btn_dialog_four:
-                final String[] menu = new String[]{"水煮豆腐", "萝卜牛腩", "酱油鸡", "胡椒猪肚鸡"};
+                final String[] menu = new String[]{"水煮豆腐", "萝卜牛腩", "酱油鸡", "胡椒猪肚鸡2"};
                 //定义一个用来记录个列表项状态的boolean数组
                 checkItems = new boolean[]{false, false, false, false};
                 alert = null;

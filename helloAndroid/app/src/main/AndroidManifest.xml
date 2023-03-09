@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloAndroid">
         <activity
-            android:name=".PopWindowActivity"
+            android:name=".ListViewActivity"
             android:exported="false" />
         <activity
-            android:name=".DispatchActivity"
+            android:name=".AdapterActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
