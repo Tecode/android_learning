@@ -10,10 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloAndroid">
         <activity
-            android:name=".ListViewActivity"
+            android:name="com.example.core.activity.ThirdActivity"
             android:exported="false" />
         <activity
-            android:name=".AdapterActivity"
+            android:name="com.example.core.activity.SecondActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Dialog">
+            <intent-filter>
+                <action android:name="com.ttit.core.action.SecondActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.core.activity.FirstActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
