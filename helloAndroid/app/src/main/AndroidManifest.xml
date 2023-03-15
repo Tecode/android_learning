@@ -9,6 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloAndroid">
+        <!--        singleTask模式会清除跳转过的所以页面保留自己-->
+        <activity
+            android:name="com.example.core.taskstack.Cactivity"
+            android:exported="false"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.example.core.taskstack.Bactivity"
+            android:exported="false"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.example.core.taskstack.Aactivity"
+            android:exported="false"
+            android:launchMode="singleInstancePerTask" />
         <activity
             android:name="com.example.core.activity.ThirdActivity"
             android:exported="false" />
@@ -18,6 +31,7 @@
             android:theme="@style/Theme.AppCompat.Dialog">
             <intent-filter>
                 <action android:name="com.ttit.core.action.SecondActivity" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
