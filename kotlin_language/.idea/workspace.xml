@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="152f3a74-1337-4a60-bde8-51d51b8fe11b" name="Changes" comment="zip">
+    <list default="$ENABLE_FLUTTER_DESKTOP$" id="152f3a74-1337-4a60-bde8-51d51b8fe11b" name="Changes" comment="zip">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_language/META-INF/kotlin_language.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_language/META-INF/kotlin_language.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/study/058.Kotlin语言的变换函数-zip.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/study/058.Kotlin语言的变换函数-zip.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_CONFLICTS" value="$ENABLE_FLUTTER_DESKTOP$" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
@@ -32,17 +32,20 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="25hGyDLGTknV0JWHKcFHfiy7yoj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="$ENABLE_FLUTTER_DESKTOP$">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
+    <option name="hideEmptyMiddlePackages" value="$ENABLE_FLUTTER_DESKTOP$" />
+    <option name="showLibraryContents" value="$ENABLE_FLUTTER_DESKTOP$" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="$ENABLE_FLUTTER_DESKTOP$" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="$ENABLE_FLUTTER_DESKTOP$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/study" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -57,52 +60,52 @@
     </key>
   </component>
   <component name="RunManager" selected="Kotlin._060_Kotlin语言的互操作性与可空性Kt">
-    <configuration name="KotlinInteraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="KotlinInteraction" type="Application" factoryName="Application" temporary="$ENABLE_FLUTTER_DESKTOP$" nameIsGenerated="$ENABLE_FLUTTER_DESKTOP$">
       <option name="MAIN_CLASS_NAME" value="com.study.KotlinInteraction" />
       <module name="kotlin_language" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.study.*" />
-          <option name="ENABLED" value="true" />
+          <option name="ENABLED" value="$ENABLE_FLUTTER_DESKTOP$" />
         </pattern>
       </extension>
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Make" enabled="$ENABLE_FLUTTER_DESKTOP$" />
       </method>
     </configuration>
-    <configuration name="_057_Kotlin语言的变换函数_filterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="_057_Kotlin语言的变换函数_filterKt" type="JetRunConfigurationType" temporary="$ENABLE_FLUTTER_DESKTOP$" nameIsGenerated="$ENABLE_FLUTTER_DESKTOP$">
       <option name="MAIN_CLASS_NAME" value="com.study._057_Kotlin语言的变换函数_filterKt" />
       <module name="kotlin_language" />
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Make" enabled="$ENABLE_FLUTTER_DESKTOP$" />
       </method>
     </configuration>
-    <configuration name="_058_Kotlin语言的变换函数_zipKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="_058_Kotlin语言的变换函数_zipKt" type="JetRunConfigurationType" temporary="$ENABLE_FLUTTER_DESKTOP$" nameIsGenerated="$ENABLE_FLUTTER_DESKTOP$">
       <option name="MAIN_CLASS_NAME" value="com.study._058_Kotlin语言的变换函数_zipKt" />
       <module name="kotlin_language" />
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Make" enabled="$ENABLE_FLUTTER_DESKTOP$" />
       </method>
     </configuration>
-    <configuration name="_059_Kotlin语言中使用函数式编程Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="_059_Kotlin语言中使用函数式编程Kt" type="JetRunConfigurationType" temporary="$ENABLE_FLUTTER_DESKTOP$" nameIsGenerated="$ENABLE_FLUTTER_DESKTOP$">
       <option name="MAIN_CLASS_NAME" value="com.study._059_Kotlin语言中使用函数式编程Kt" />
       <module name="kotlin_language" />
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Make" enabled="$ENABLE_FLUTTER_DESKTOP$" />
       </method>
     </configuration>
-    <configuration name="_060_Kotlin语言的互操作性与可空性Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="_060_Kotlin语言的互操作性与可空性Kt" type="JetRunConfigurationType" temporary="$ENABLE_FLUTTER_DESKTOP$" nameIsGenerated="$ENABLE_FLUTTER_DESKTOP$">
       <option name="MAIN_CLASS_NAME" value="com.study._060_Kotlin语言的互操作性与可空性Kt" />
       <module name="kotlin_language" />
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Make" enabled="$ENABLE_FLUTTER_DESKTOP$" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.KotlinInteraction" />
       <item itemvalue="Kotlin._057_Kotlin语言的变换函数_filterKt" />
       <item itemvalue="Kotlin._058_Kotlin语言的变换函数_zipKt" />
       <item itemvalue="Kotlin._059_Kotlin语言中使用函数式编程Kt" />
-      <item itemvalue="Application.KotlinInteraction" />
       <item itemvalue="Kotlin._060_Kotlin语言的互操作性与可空性Kt" />
     </list>
     <recent_temporary>
@@ -115,9 +118,9 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="$ENABLE_FLUTTER_DESKTOP$" transferred="$ENABLE_FLUTTER_DESKTOP$" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
+    <task active="$ENABLE_FLUTTER_DESKTOP$" id="Default" summary="Default task">
       <changelist id="152f3a74-1337-4a60-bde8-51d51b8fe11b" name="Changes" comment="" />
       <created>1645972161341</created>
       <option name="number" value="Default" />
@@ -163,6 +166,7 @@
       <workItem from="1674226240592" duration="11877000" />
       <workItem from="1674871002288" duration="632000" />
       <workItem from="1674889288248" duration="2979000" />
+      <workItem from="1678368885440" duration="431000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin代码学习，为Android学习大基础">
       <created>1645975436657</created>
@@ -446,7 +450,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="013-kotlin语言的takeIf内置函数" />
