@@ -36,7 +36,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.core.service.Service2Activity"
+            android:name="com.example.core.broadcastreceiver.AActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,9 +44,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.core.broadcastreceiver.BActivity"
+            android:exported="false" />
         <!-- 配置Service组件,同时配置一个action -->
         <service android:name="com.example.core.service.MyService1" />
         <service android:name="com.example.core.service.MyService2" />
+        <!-- 广播 -->
+        <receiver android:name="com.example.core.broadcastreceiver.DynamicBRReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.broadcasttest.DynamicBRReceiver" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
