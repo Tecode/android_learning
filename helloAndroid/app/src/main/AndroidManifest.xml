@@ -36,7 +36,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.core.activity.FirstActivity"
+            android:name="com.example.core.service.Service2Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,6 +44,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- 配置Service组件,同时配置一个action -->
+        <service android:name="com.example.core.service.MyService1" />
+        <service android:name="com.example.core.service.MyService2" />
     </application>
 
 </manifest>
