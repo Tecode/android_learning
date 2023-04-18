@@ -51,10 +51,10 @@
         <service android:name="com.example.core.service.MyService1" />
         <service android:name="com.example.core.service.MyService2" />
         <!-- 广播 -->
-        <receiver android:name="com.example.core.broadcastreceiver.DynamicBRReceiver"
+        <receiver android:name="com.example.core.broadcastreceiver.StaticBRReceiver"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.example.broadcasttest.DynamicBRReceiver" />
+                <action android:name="com.example.broadcasttest.StaticBRReceiver" />
             </intent-filter>
         </receiver>
     </application>

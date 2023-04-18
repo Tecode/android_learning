@@ -21,13 +21,13 @@ public class BActivity extends AppCompatActivity {
         findViewById(R.id.btn_send).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //发送广播
+            // 静态注册发送广播
 //                Intent intent = new Intent("com.example.broadcasttest.StaticBRReceiver");
 //                Android8.0以上系统不再支持该种方式
                 Intent intent = new Intent();
                 intent.setComponent(new ComponentName(BActivity.this, StaticBRReceiver.class));
                 sendBroadcast(intent);
-
+            // 动态注册发送广播
 //                Intent intent = new Intent("com.example.broadcasttest.DynamicBRReceiver");
 //                sendBroadcast(intent);
             }
