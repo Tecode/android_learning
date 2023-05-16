@@ -40,7 +40,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.core.provider.ContentProvider2Activity"
+            android:name="com.example.core.sqlite.SqliteActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
