@@ -6,10 +6,10 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 public class MyDBOpenHelper extends SQLiteOpenHelper {
-    private static final String TAG = "ttit";
+    private static final String TAG = "haoxuan";
 
     public MyDBOpenHelper(Context context, String name, SQLiteDatabase.CursorFactory factory,
-                           int version) {
+                          int version) {
         super(context, name, null, version);
     }
 
