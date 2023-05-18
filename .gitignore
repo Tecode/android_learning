@@ -26,3 +26,4 @@ java_language/.DS_Store/
 
 # 忽略.idea文件避免其它java版本不同造成
 .idea/
+**/.DS_Store/
