@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloAndroid">
-        <!--        singleTask模式会清除跳转过的所以页面保留自己-->
+        <!-- singleTask模式会清除跳转过的所以页面保留自己 -->
         <activity
             android:name="com.example.core.taskstack.Cactivity"
             android:exported="false"
@@ -40,7 +40,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.core.http.JsonActivity"
+            android:name="com.example.core.drawable.DrawableActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
