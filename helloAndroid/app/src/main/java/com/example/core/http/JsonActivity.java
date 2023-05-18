@@ -43,7 +43,7 @@ public class JsonActivity extends AppCompatActivity {
             //获得assets资源管理器（assets中的文件无法直接访问，可以使用AssetManager访问）
             AssetManager assetManager = getAssets();
             //使用IO流读取json文件内容
-            InputStreamReader inputStreamReader = new InputStreamReader(assetManager.open("person.json"), StandardCharsets.UTF_8);
+            InputStreamReader inputStreamReader = new InputStreamReader(assetManager.open("family.json"), StandardCharsets.UTF_8);
             BufferedReader br = new BufferedReader(inputStreamReader);//使用字符高效流
             String line;
             StringBuilder builder = new StringBuilder();
