@@ -27,3 +27,12 @@ val compileTestKotlin: KotlinCompile by tasks
 compileTestKotlin.kotlinOptions {
     jvmTarget = "1.8"
 }
+
+// 自定义任务
+task("runTask001", {
+    println("runTask001")
+})
+
+task("runTask002", {
+    println("runTask002")
+}).dependsOn("runTask001")
