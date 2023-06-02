@@ -11,7 +11,10 @@ application {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    implementation("commons-httpclient","commons-httpclient","3.1")
+    implementation("commons-httpclient","commons-httpclient","3.1"){
+//        解决依赖重复的问题
+//        exclude("commons-logger","common-logging")
+    }
 }
 
 repositories {
