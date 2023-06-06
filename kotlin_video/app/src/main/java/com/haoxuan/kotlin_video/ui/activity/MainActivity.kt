@@ -1,6 +1,9 @@
 package com.haoxuan.kotlin_video.ui.activity
 
+import android.annotation.SuppressLint
+import android.app.Service
 import android.os.Bundle
+import android.os.Vibrator
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -17,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
+    @SuppressLint("ServiceCast")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -33,6 +37,9 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
+//        手机震动
+        val vibrator = getSystemService(Service.VIBRATOR_MANAGER_SERVICE) as Vibrator
+//        vibrator.vibrate(1000)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
